@@ -4,6 +4,10 @@
 
 
 
+---
+
+
+
 \# 🚀 Terraform Specialist: Cloud Provisioning on GCP
 
 
@@ -24,13 +28,17 @@
 
 
 
-\- \*\*IaC Fundamentals:\*\* Workspaces, Remote State (GCS), and Provider configuration.
+| Domain / Domínio | Key Topics / Tópicos Chave | Focus / Foco |
 
-\- \*\*Secure Networking:\*\* Provisioning VPCs, Shared VPCs, and Cloud Armor via TF.
+| --- | --- | --- |
 
-\- \*\*Automated Resilience:\*\* Deploying Managed Instance Groups (MIGs) with Auto-healing.
+| \*\*IaC Fundamentals\*\* | Workspaces, Remote State (GCS), Providers | Sustentação e Colaboração |
 
-\- \*\*Identity as Code:\*\* Managing IAM Bindings and Service Accounts programmatically.
+| \*\*Secure Networking\*\* | VPCs, Shared VPCs, Cloud Armor | Segurança de Rede (Sec) |
+
+| \*\*Automated Resilience\*\* | MIGs, Auto-healing, Load Balancing | Alta Disponibilidade |
+
+| \*\*Identity as Code\*\* | IAM Bindings, Service Accounts | Governança e Least Privilege |
 
 
 
@@ -42,13 +50,67 @@
 
 
 
-\### \[Capstone 1] Secure Landing Zone
-
-Automated deployment of a baseline infrastructure following Google's best practices (Cloud Foundations Toolkit).
+> Projetos desenvolvidos para simular cenários reais de infraestrutura escalável e segura.
 
 
 
-\### \[Capstone 2] BCDR Automation
+\### 🏗️ \[Capstone 1] Secure Landing Zone
 
-Using Terraform to orchestrate snapshots and cross-region recovery architectures.
+
+
+\*\*Goal:\*\* Automated deployment of a baseline infrastructure following Google's best practices (Cloud Foundations Toolkit).
+
+
+
+\* \*\*Keywords:\*\* `Cloud Folders`, `Shared VPC`, `Organization Policies`.
+
+\* \*\*Outcome:\*\* A repeatable, production-ready environment built in minutes.
+
+
+
+\### 🛡️ \[Capstone 2] BCDR Automation
+
+
+
+\*\*Goal:\*\* Using Terraform to orchestrate snapshots and cross-region recovery architectures.
+
+
+
+\* \*\*Keywords:\*\* `Snapshot Schedules`, `Regional Failover`, `Cloud Storage Replication`.
+
+\* \*\*Outcome:\*\* Automated Disaster Recovery reducing RTO/RPO metrics.
+
+
+
+---
+
+
+
+\## 💻 Tool Stack / Ferramentas Utilizadas
+
+
+
+`Terraform CLI` | `gcloud SDK` | `HCL (HashiCorp Configuration Language)` | `Git` | `GCP Console`
+
+
+
+---
+
+
+
+\## 🛡️ DevSecOps Insight
+
+
+
+> \*\*"Security by Design"\*\* is not an option; it's a requirement. This repository demonstrates how to integrate security controls directly into the infrastructure provisioning phase, ensuring compliance from day one.
+
+
+
+---
+
+
+
+
+
+
 
