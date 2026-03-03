@@ -1,0 +1,62 @@
+# ==========================================
+# 🚀 TERRAFORM SPECIFIC (Infraestrutura)
+# ==========================================
+# Diretórios locais do Terraform (contêm binários e módulos baixados)
+**/.terraform/*
+
+# Ficheiros de Estado (Contêm dados sensíveis da infraestrutura em texto claro)
+*.tfstate
+*.tfstate.*
+
+# Ficheiros de variáveis de segredos (Onde guardas passwords e tokens)
+*.tfvars
+*.tfvars.json
+
+# Logs de erro do Terraform
+crash.log
+
+# ==========================================
+# 🛡️ SEGURANÇA E CREDENCIAIS (CRÍTICO)
+# ==========================================
+# Bloqueio total de chaves e certificados
+*.pem
+*.key
+*.pub
+*.p12
+*.json
+
+# Ficheiros específicos de autenticação GCP/Google
+credentials.json
+client_secret.json
+adc.json
+
+# ==========================================
+# 📝 ANOTAÇÕES E DOCS PESSOAIS
+# ==========================================
+# Ignorar anotações em Word na raiz (Insights)
+/*.docx
+~$*.docx
+
+# ==========================================
+# 💻 SISTEMA OPERACIONAL E EDITORES
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configurações de editores (opcional, mas recomendado para manter o repo limpo)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# 🐍 DEPENDÊNCIAS E LOGS GERAIS
+# ==========================================
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.log
+tmp/
+temp/
